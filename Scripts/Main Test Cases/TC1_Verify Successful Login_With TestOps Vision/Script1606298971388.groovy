@@ -34,7 +34,7 @@ WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
 // Check login section with data using TestOps Vision
-for(int i=0 ; i <= 1; i++) {
+for(int i=1 ; i <= 206; i++) {
 	WebUI.takeElementScreenshotAsCheckpoint("Visual Testing Checkpoint ${i}"  , LoginObject)
 }
 
